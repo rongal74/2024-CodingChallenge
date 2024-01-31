@@ -11,6 +11,6 @@
 const reverseSeq = (n) =>
   Array(n)
     .fill(0)
-    .map((e, i) => n - i);
+    .map((_, i) => n - i);
 
 console.log(reverseSeq(5));
