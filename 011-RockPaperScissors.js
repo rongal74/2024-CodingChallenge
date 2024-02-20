@@ -7,7 +7,6 @@ const rps = (p1, p2) => {
   else if (!choices.includes(p2))
     return `Player 2 made an invalid move: ${p2}.`;
   let result;
-  console.log(`${p1}${p2}`);
   switch (`${p1}${p2}`) {
     case "rockscissors":
     case "scissorspaper":
